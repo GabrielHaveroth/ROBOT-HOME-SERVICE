@@ -3,9 +3,9 @@
 In this ROS project, using the Turtlebot, a home service robot simulation was developed.    
 
 For this task, we employed the following Turtlebot's standard .launch  files:
-*For localization:  amcl_demo.launch (from turtlebot_gazebo);
-*To send the commands: keyboard_teleop.launch (from turtlebot_teleop);
-*To start the simulation environment: turtlebot_world.launch (from turtlebot_gazebo)
+*For localization*:  amcl_demo.launch (from turtlebot_gazebo);
+*To send the commands*: keyboard_teleop.launch (from turtlebot_teleop);
+*To start the simulation environment*: turtlebot_world.launch (from turtlebot_gazebo)
 
 We developed a custom .rviz file used in all tasks of this project home_service.rviz (from rviz_home_service).
 
