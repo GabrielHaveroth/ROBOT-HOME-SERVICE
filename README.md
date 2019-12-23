@@ -1,6 +1,8 @@
 # ROBOT-HOME-SERVICE
 
-In this ROS project, using the Turtlebot, a home service robot simulation was developed.    For this task, we employed the following Turtlebot's standard .launch  files:
+In this ROS project, using the Turtlebot, a home service robot simulation was developed.    
+
+For this task, we employed the following Turtlebot's standard .launch  files:
 For localization:  amcl_demo.launch (from turtlebot_gazebo);
 To send the commands: keyboard_teleop.launch (from turtlebot_teleop);
 To start the simulation environment: turtlebot_world.launch (from turtlebot_gazebo)
