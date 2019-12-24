@@ -6,7 +6,7 @@ For this task, we employed the following Turtlebot's standard .launch  files:
 - **_For localization_**:  amcl_demo.launch (from turtlebot_gazebo);
 - **_To send the commands_**: keyboard_teleop.launch (from turtlebot_teleop);
 - **_To start the simulation environment_**: turtlebot_world.launch (from turtlebot_gazebo).
-- **_To mapping_**: turtlebot_gazebo gmapping_demo.launch (from turtlebot_gazebo).
+- **_For mapping_**: gmapping_demo.launch (from turtlebot_gazebo).
 
 We developed a custom .rviz file used in all tasks of this project *home_service.rviz* (from rviz_home_service).
 # NODES
