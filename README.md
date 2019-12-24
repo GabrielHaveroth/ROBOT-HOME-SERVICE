@@ -13,7 +13,7 @@ Also, we developed two nodes:
 
 - **_pick_objects_**: this node sends the position goal to the Turtlebot, and publishes a boolean value on the */goalstatus* topic when the robot reached on the position (pick up or drop off).
 
-- **_add_markers_**: this node draws or deletes a virtual object after it subscribes to a boolean value from the */goalstatus* topic. It deletes the virtual object when the robot reached in the pick up position and draws when the robot reached in the drop off zone.
+- **_add_markers_**: this node draws or deletes a virtual object after it subscribes a boolean value from the */goalstatus* topic. It deletes the virtual object when the robot reached in the pick up position and draws when the robot reached in the drop off zone.
 
 # SHELL SCRIPTS
 Five shell scripts are available for testing this simulation:
