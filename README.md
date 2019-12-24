@@ -25,3 +25,5 @@ Five shell scripts are available for testing this simulation:
 - *test_slam.sh*: it launches the simulation with custom .world file, tests Tuttlebot's mapping using the gmapping package, and keyboard_teleop.
 - *home_service.sh*: It is the complete system. We send the goal position to the robot (pick_object node), and simulates the pickup and drop off using a virtual object (add_markers node).
 - *home_service_my_robot.sh*: It is the same as home_service.sh but uses a custom robot model (it is in developing and fine-tuning).
+
+OBS: The map.pgm used in this project was generared from a .db file as in https://mahsaparsapour.wordpress.com/tutorials/ros-2/map-building-with-rtab-map/.
