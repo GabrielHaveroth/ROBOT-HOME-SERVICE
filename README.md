@@ -3,7 +3,7 @@
 In this ROS project, using the Turtlebot, a home service robot simulation was developed.    
 For this task, we employed the following Turtlebot's standard .launch  files:
 
-- **_For localization_**:  amcl_demo.launch (from turtlebot_gazebo).s
+- **_For localization_**:  amcl_demo.launch (from turtlebot_gazebo).
 - **_To send the commands_**: keyboard_teleop.launch (from turtlebot_teleop)
 - **_To start the simulation environment_**: turtlebot_world.launch (from turtlebot_gazebo).
 - **_For mapping_**: gmapping_demo.launch (from turtlebot_gazebo).
